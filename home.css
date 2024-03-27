@@ -26,7 +26,7 @@ header {
 }
 
 .header-logo {
-    font-size: 28px;
+    font-size: 35px;
     color: rgb(115, 115, 115);
     cursor: default;
 }
@@ -36,7 +36,7 @@ header {
 }
 
 .nav-bar a {
-    font-size: 12px;
+    font-size: 18px;
     color: rgb(115, 115, 115);
     text-decoration: none;
     margin-right: 40px;
@@ -49,14 +49,14 @@ header {
 }
 
 .nav-btn, .hero-btn1 {
-    font-size: 12px;
+    font-size: 18px;
     font-weight: 500;
     color: white;
     text-decoration: none;
     background-color: rgb(140, 82, 255);
     border: 2px solid rgb(140, 82, 255);
     padding: 8px 17px;
-    border-radius: 20px;
+    border-radius: 25px;
     transition: 0.3s;
 }
 
@@ -99,8 +99,9 @@ h1 span {
 }
 
 .hero-descr {
-    font-size: 16px;
-    margin-bottom: 30px;
+    font-size: 18px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .hero-btn-group {
@@ -109,14 +110,14 @@ h1 span {
 
 .hero-btn2 {
     margin-left: 20px;
-    font-size: 12px;
+    font-size: 18px;
     font-weight: 500;
     color: rgb(140, 82, 255);
     text-decoration: none;
     background-color: white;
     border: 2px solid rgb(140, 82, 255);
     padding: 8px 17px;
-    border-radius: 20px;
+    border-radius: 25px;
     transition: 0.3s;
 }
 
@@ -132,11 +133,13 @@ h1 span {
 .social-icons a {
     background-color: rgb(140, 82, 255);
     margin-right: 20px;
-    height: 30px;
-    width: 30px;
+    height: 35px;
+    width: 35px;
     border-radius: 50%;
     text-align: center;
-    line-height: 30px;
+    line-height: 35px;
+    border: 2px solid white;
+    outline: 2px solid rgb(140, 82, 255);
 }
 
 .social-icons a i {
@@ -146,7 +149,7 @@ h1 span {
 /*right-hero section*/
 
 .hero-image {
-    width: 350px;
-    height: 350px;
+    width: 500px;
+    height: 500px;
     object-fit: cover;
 }
